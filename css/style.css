@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: auto;
+}
+
+.navbar {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #4e691c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.Viewbutton{
+    background: #4e691c;
+}
+.Student-name{
+    color:  #4e691c; 
+}
+.navbar .create {
+    color: #fff;
+    font-size: 1.5rem;
+    padding-right: 220px;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 120px;
+}
+
+.navbar-brand:hover, .create:hover {
+    color: #fff;
+}
+
+.form-container {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.student-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
